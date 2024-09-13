@@ -80,3 +80,12 @@ footer {
     margin-bottom: auto;
     margin-top: fixed;
 }
+
+@media (max-width: 770px) {
+    .logo {
+        width: 80%;
+    }
+    .heading {
+        font-size: large;
+    }
+}
