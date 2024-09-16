@@ -1,28 +1,29 @@
 .logo {
     border-radius: 100%;
-    margin-top: 15px;
+    margin-top: 15px; 
     
 }
 
-a:hover {
+.link:hover {
     color: gold;
 }
 
-body {
+.body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
 }
 
-header {
+.header {
     background-color: #333;
     color: white;
     padding: 10px 0;
     text-align: center;
+    margin: 0;
 }
 
-header h1 {
+.h-header {
     margin: 0;
 }
 
@@ -31,42 +32,43 @@ header h1 {
     text-align: center;
 }
 
-nav ul {
+.nav 
+.list {
     list-style: none;
     padding: 0;
 }
 
-nav ul li {
+.nav 
+.list 
+.list-item {
     display: inline;
     margin: 0 15px;
 }
 
-nav ul li a {
+.nav 
+.list 
+.list-item 
+.link {
     color: white;
     text-decoration: none;
 }
 
-section {
+.section {
     padding: 20px;
     margin: 0 10px;
     background-color: white;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-section h2 {
     margin-top: 0;
     justify-content: center;
     text-align: center;
 }
 
-footer {
-    background-color: #ffffff00;
-    color: rgb(0, 0, 0);
-    text-align: end;
-    position: fixed;
+.s-heading {
+    margin-top: 0;
+    justify-content: center;
+    text-align: center;
 }
-
 
 .donate {
     margin-left: auto;
